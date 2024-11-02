@@ -1,0 +1,58 @@
+p, li
+{
+    color: red;
+    width: 500px;
+    border: 1px solid rgb(130, 225, 53);
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3 
+{
+    color: rgb(14, 14, 120);
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:hover
+{
+    color: orange;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+html
+{
+    font-size: 10px;
+    font-family: "Rubik WetPaint", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgb(179, 199, 215);
+}
+
+@font-face {
+    font-family: "Rubik WetPaint";
+    src: url("fonts/RubikWetPaint-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
